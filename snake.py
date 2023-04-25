@@ -1,5 +1,6 @@
 import pygame
 import random
+import os
 
 # Define constants
 SCREEN_WIDTH = 600
@@ -15,6 +16,10 @@ if VAR == TEST:
     
 # Playing with assert
 assert VAR+"123",VAR+TEST
+
+# Playing with dir
+input_location = "C:\\Users\doesnotexist\snake.py"
+print(os.path.split(input_location))
 # Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
