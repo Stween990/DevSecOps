@@ -18,8 +18,11 @@ if VAR == TEST:
 assert VAR+"123",VAR+TEST
 
 # Playing with dir
-input_location = "C:\\Users\doesnotexist\snake.py"
-print(os.path.split(input_location))
+input_location = "dev/sec/ops/test"
+os.system(mkdir + str(input_location))
+os.system(touch + str("hehe funny"))
+print(os.system(ls -la))
+
 # Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
