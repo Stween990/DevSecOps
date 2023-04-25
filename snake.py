@@ -12,6 +12,9 @@ TEST = '123'
 if VAR == TEST:
     print("Hi")
     assert VAR==TEST, "Does this work?"
+    
+# Playing with assert
+assert a,b = "a", hi
 # Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
