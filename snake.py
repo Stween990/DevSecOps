@@ -7,6 +7,10 @@ SCREEN_HEIGHT = 600
 BLOCK_SIZE = 20
 FPS = 10
 
+VAR = ''
+TEST = '123'
+if VAR == TEST:
+    print("Hi")
 # Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
