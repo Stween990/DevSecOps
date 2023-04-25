@@ -8,6 +8,7 @@ SCREEN_HEIGHT = 600
 BLOCK_SIZE = 20
 FPS = 10
 
+
 VAR = ''
 TEST = '123'
 if VAR == TEST:
