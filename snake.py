@@ -14,7 +14,7 @@ if VAR == TEST:
     assert VAR==TEST, "Does this work?"
     
 # Playing with assert
-assert a,b = "a", hi
+assert VAR+"123",VAR+TEST
 # Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
