@@ -26,10 +26,11 @@ jobs:
 
     - name: Run Bandit
       run: |
+        bandit -r .
         bandit -r . --format json -o bandit_results.json --verbose
-      if: ${{ always() }}
         echo "Bandit results:"
         cat bandit_results.json
+      if: ${{ always() }}
 
     - name: Build and Test
       run: |
